@@ -8,3 +8,5 @@ It is used by a JS front end developed in p5.js and ml5js (separate project unde
 * Open command prompt (Windows)/Terminal (Mac OS) and run `mvn clean package`
 * Execute the class `org.pk.opennlp.StandfordNlpApplication` (Either command prompt or IDE)
 
+Please note: CORS is disabled (!!!) so as to enable access from the JS project. I didnt use a proxy. 
+
