@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(path="/ff")
-@CrossOrigin(origins = "http://localhost:9999")
+@CrossOrigin(origins = "*")
 public class Controller {
 
 	@Autowired
